@@ -1,0 +1,39 @@
+:root {
+  --color-background: #f8f8f5;
+  --text-primary: #30372b;
+  --text-secondary: #737969;
+  --text-tertiary: #8e9784;
+}
+
+:root[data-theme="dark"] {
+  --color-background: #1c1e1a;
+  --text-primary: #e7e9e1;
+  --text-secondary: #b2b8a8;
+  --text-tertiary: #9ba58e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-new(root) {
+  z-index: 2;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+}

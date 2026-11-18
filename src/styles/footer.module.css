@@ -1,0 +1,9 @@
+.footer {
+  color: var(--text-secondary);
+  font-family: "IBM Plex Mono";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  padding: 65px 0 35px 0;
+}

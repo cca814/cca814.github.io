@@ -1,0 +1,220 @@
+.profileHeader {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profileAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.profileIdentity {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profileName {
+  color: var(--text-primary);
+  font-family: "Instrument Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: -0.77px;
+}
+
+.profileTagline {
+  color: var(--text-tertiary);
+  font-family: "IBM Plex Mono";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.5px;
+}
+
+.profileBio {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.profileBio > p {
+  color: var(--text-secondary);
+  font-family: "Instrument Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.5px;
+}
+
+.profileSchool {
+  color: var(--text-primary);
+}
+
+.section {
+  margin-top: 55px;
+}
+
+.sectionTitle {
+  color: var(--text-primary);
+  font-family: "Instrument Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: -0.13px;
+  margin-bottom: 24px;
+}
+
+.currentList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.currentItem {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+}
+
+.currentItemTag {
+  color: var(--text-tertiary);
+  font-family: "IBM Plex Mono";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.8px;
+  min-width: 60px;
+}
+
+.currentItemDescription {
+  color: var(--text-secondary);
+  font-family: "Instrument Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.projectItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.projectName {
+  color: var(--text-primary);
+  font-family: "Instrument Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.5px;
+  letter-spacing: -0.15px;
+}
+
+.projectDescription {
+  color: var(--text-secondary);
+  font-family: "Instrument Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.9px;
+}
+
+.projectTag {
+  color: var(--text-tertiary);
+  font-family: "IBM Plex Mono";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.noteList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.noteItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.noteInfo {
+  color: var(--text-tertiary);
+  font-family: "IBM Plex Mono";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.noteName {
+  color: var(--text-primary);
+  font-family: "Instrument Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.experienceList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.experienceItem {
+  display: flex;
+  gap: 70px;
+}
+
+.experienceTime {
+  color: var(--text-tertiary);
+  font-family: "IBM Plex Mono";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.1px;
+  min-width: 60px;
+}
+
+.experienceInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.experienceName {
+  color: var(--text-primary);
+  font-family: "Instrument Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.1px;
+}
+
+.experienceLocation {
+  color: var(--text-tertiary);
+  font-family: "Instrument Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.4px;
+}

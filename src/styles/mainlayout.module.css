@@ -1,0 +1,22 @@
+.mainLayout {
+  width: 100%;
+  max-width: 768px;
+  margin-inline: auto;
+  padding: 0 28px;
+  background-color: var(--color-background);
+
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+.mainLayout > header,
+.mainLayout > footer {
+  flex-shrink: 0;
+}
